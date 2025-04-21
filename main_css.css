@@ -1,8 +1,8 @@
 header{
     display: flex;
-    flex-direction: column;     /* Alinha os filhos em coluna */
-    align-items: center;        /* Centraliza horizontalmente */
-    gap: 10px;                  /* Espaço entre o título e os links */
+    flex-direction: column; /* Alinha os filhos em coluna */
+    align-items: center;
+    gap: 10px;
     padding: 20px;
     background-color: #1e38ca;
     
@@ -10,7 +10,7 @@ header{
 
 nav {
     display: flex;
-    gap: 20px;                  /* Espaço entre os links */
+    gap: 20px;
 }
 
 .header_div {
@@ -33,7 +33,7 @@ nav {
 
 .div_texto{
     max-width: 1200px;
-      margin: 0 auto;     /* centraliza horizontalmente */
+      margin: 0 auto; /* centraliza */
       padding: 20px;
       font-size: 18px;
       line-height: 1.5;
@@ -71,4 +71,35 @@ nav {
 
 img{
     height: 400px;
+}
+
+span{
+    font-weight: bolder;
+}
+
+input, select, textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #a3a3a3;
+    border-radius: 5px;
+}
+
+button{
+    background-color: #a0a0a0;
+    color: #ffffff;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #a3a3a3;
+    border-radius: 5px;
+}
+
+.voltar_ao_inicio{
+    background-color: rgb(38, 56, 212);
+    color: #ffffff;
+    font-weight: bold;
+    padding: 8px 12px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+    margin-top: 15px;
 }
