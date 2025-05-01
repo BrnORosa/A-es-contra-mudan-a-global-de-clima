@@ -47,22 +47,27 @@ nav {
 .div_barra_lateral{
     width: 20%;
     background-color:rgb(235, 234, 234);
-    padding: 20px;
+    overflow: hidden;
     height: 200px;
     position: sticky;
     top: 0;
     border-radius: 4px;
     gap: 15px;
+    padding: 1em;
 }
 
 .div_barra_lateral a{
     text-decoration: none;
     color: #444444;
     font-weight: bold;
-    padding: 8px 12px;
+    padding: 1px 1px;
     border-radius: 5px;
     transition: background-color 0.3s;
 }
+
+.div_barra_lateral ul li {
+    margin-bottom: 10px;
+  }
 
 .div_separa{
     /*essa div é só paara deixar a barra lateral do lado*/
